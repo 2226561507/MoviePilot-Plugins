@@ -70,5 +70,21 @@
       "v1.9.0": "按 TMDB 原始语言排除中文作品，定时检查本地影视库并补全中文字幕；支持 NAS 同级目录及当前设备下载、插件内网页授权和自动续期。",
       "v1.8.0": "增加 NAS 独立授权的字幕搜索页，支持 IMDb 与片名回退、结果筛选和分页，保留观影状态与评分功能。"
     }
+  },
+  "UserDownloadPath": {
+    "name": "用户目录配置",
+    "description": "按用户名或用户 ID 为不同用户设置独立下载目录，支持按媒体类型和类别建立子目录。",
+    "labels": "下载,用户",
+    "version": "2.0.0",
+    "author": "DzAvril",
+    "level": 1,
+    "system_version": ">=3.1.6,<4",
+    "icon": "https://raw.githubusercontent.com/DzAvril/MoviePilot-Plugins/main/icons/userdownloadpath.png",
+    "release": true,
+    "history": {
+      "v2.0.0": "迁移至 MoviePilot V3：改用 app.sdk 稳定接口，保留按用户名/ID 分配下载目录及分类子目录，兼容 Windows 盘符路径；V3 要求用户目录位于已配置的下载目录内。",
+      "v1.1": "支持目录自动分类",
+      "v1.0": "新建"
+    }
   }
 }

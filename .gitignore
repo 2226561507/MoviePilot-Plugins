@@ -174,3 +174,5 @@ runtime-*
 !tests/v3/qqmusicplaylistsync/test_*
 # V3 invalid-seed review regression tests
 !tests/v3/cleaninvalidseed/test_*
+# V3 user download path regression tests
+!tests/v3/userdownloadpath/test_*

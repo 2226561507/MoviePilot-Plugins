@@ -8,6 +8,10 @@
 
 [音乐歌单同步](./plugins.v3/qqmusicplaylistsync/README.md)：持续同步多个 QQ、网易云公开歌单，新增歌曲立即搜索；保持单曲订阅，从分轨专辑只选所需歌曲，下载和入库状态实时联动。适用于 MoviePilot 3.1.6 及以上 V3 版本。
 
+## V3 用户目录配置
+
+[用户目录配置](./plugins.v3/userdownloadpath/README.md)：按用户名或用户 ID 分配独立下载目录，保留按媒体类型与类别建立子目录的行为，适用于 MoviePilot 3.1.6 及以上 V3 版本。
+
 V3 插件索引为 [`package.v3.json`](./package.v3.json)，源码位于 `plugins.v3/`，测试位于 `tests/v3/`。开发规范参考[官方 V3 开发指南](https://github.com/jxxghp/MoviePilot-Plugins/blob/main/docs/Plugin_Development.md)。
 
 MoviePilot官方插件市场：https://github.com/jxxghp/MoviePilot-Plugins
